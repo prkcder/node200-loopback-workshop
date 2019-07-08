@@ -1,3 +1,5 @@
+'use strict';
+
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const server = require('../server/server');
@@ -39,5 +41,4 @@ describe('loopback server', function() {
         done();
       });
   });
-
-})
+});
