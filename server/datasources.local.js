@@ -3,12 +3,12 @@
 module.exports = {
   'db': {
     'name': 'db',
-    'connector': 'memory'
+    'connector': 'memory',
   },
   'MongoDB': {
     'url': 'mongodb://localhost:27017',
     'name': 'MongoDB',
-    'connector': 'mongodb'
+    'connector': 'mongodb',
   },
 };
 
